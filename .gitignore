@@ -1,41 +1,15 @@
-.idea
-build
-src/*.egg-info
-.cache
-.coverage*
-sagemaker_venv*
-*.egg-info
-.tox
-**/__pycache__
-**/.ipynb_checkpoints
-dist/
-**/tensorflow-examples.tar.gz
-**/*.pyc
-**.pyc
-scratch*.py
-scratch/
-.eggs
-*.egg
-examples/tensorflow/distributed_mnist/data
-*.iml
+# Streamlined Development - Claude Code configuration
+# These files are synced from a private master repo
+.claude/
 
-# Sphinx documentation
-docs/_build/
-doc/_build
-doc/_static
-doc/_templates
-**/.DS_Store
+# Common ignores
+node_modules/
+.env
+.env.local
+*.log
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
 venv/
-*~
-.pytest_cache/
-*.swp
-.docker/
-env/
-.vscode/
-**/tmp
-.python-version
-*.html
-**/_repack_script_launcher.sh
-sagemaker_train/src/**/container_drivers/sm_train.sh
-sagemaker_train/src/**/container_drivers/sourcecode.json
-sagemaker_train/src/**/container_drivers/distributed.json
